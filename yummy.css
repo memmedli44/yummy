@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+header h1 {
+  font-size: 28px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  max-width: 95%;
+}
+header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+header span {
+  color: #ce1212;
+}
+
+.btn-book-a-table {
+  background-color: #ce1212;
+  border-radius: 40px;
+
+  padding: 8px 20px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.navbar-expand-lg ul a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ce1212;
+}
+.btn-book-a-table:hover {
+  background: rgba(206, 18, 18, 0.8);
+}
+.reklam {
+  background-color: #eee;
+  background-size: cover;
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 90px;
+}
+.btn button {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #ce1212;
+  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+  margin-right: 10px;
+  margin-left: -15px;
+}
+#qab {
+  height: 526px;
+  width: 526px;
+}
+.reklam h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 64px;
+  color: #37373f;
+  margin-bottom: 30px;
+}
+.reklam p {
+  font-size: 18px;
+}
+.about {
+  padding-block: 78px;
+}
+.section-header {
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #7f7f90;
+  text-transform: uppercase;
+}
+.section-header p {
+  font-size: 48px;
+  font-family: "Amatic SC", cursive;
+  color: #212529;
+}
+.section-header span {
+  color: #ce1212;
+}
+.section-main .img {
+  opacity: 1;
+}
+.text {
+}
